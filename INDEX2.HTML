@@ -1,0 +1,993 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patrocina tu negocio en Alzira, Valencia. Posicionamiento SEO local para que te encuentren fácilmente en Google. Aumenta tu visibilidad y clientes locales.">
+    <meta name="keywords" content="SEO Alzira, posicionamiento web Alzira, marketing digital Alzira, patrocinio empresas Alzira, SEO local Valencia, visibilidad online Alzira">
+    <title>Patrocinio SEO Local en Alzira, Valencia | Posicionamiento Web #1</title>
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Patrocinio SEO Local en Alzira, Valencia">
+    <meta property="og:description" content="Posicionamiento SEO local para empresas en Alzira, Valencia. Convierte visitas en clientes reales.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tudominio.com">
+    <meta property="og:image" content="https://placehold.co/1200x630/orange/white?text=SEO+Alzira+Valencia">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://tudominio.com" />
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Servicios SEO Alzira",
+      "image": "https://placehold.co/300x200/orange/white?text=SEO+Alzira",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Centro de Alzira",
+        "addressLocality": "Alzira",
+        "addressRegion": "Valencia",
+        "postalCode": "46600",
+        "addressCountry": "ES"
+      },
+      "telephone": "+34 962 123 456",
+      "email": "info@tudominio.com",
+      "url": "https://tudominio.com",
+      "sameAs": [
+        "https://www.facebook.com/tudominio",
+        "https://www.instagram.com/tudominio",
+        "https://twitter.com/tudominio"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.1833,
+        "longitude": -0.6167
+      }
+    }
+    </script>
+
+    <style>
+        /* Reset y configuración básica */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        /* Variables de diseño */
+        :root {
+            --primary-color: #e74c3c;
+            --secondary-color: #3498db;
+            --accent-color: #f39c12;
+            --dark-color: #2c3e50;
+            --light-color: #ecf0f1;
+            --success-color: #27ae60;
+        }
+        
+        /* Cabecera */
+        header {
+            background: linear-gradient(135deg, var(--dark-color), var(--primary-color));
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .logo span {
+            color: var(--accent-color);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        
+        nav ul li a:hover {
+            color: var(--accent-color);
+            background-color: rgba(255,255,255,0.1);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://placehold.co/1920x800/3498db/white?text=Alzira+Valencia') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 0;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .cta-button:hover {
+            background-color: #e67e22;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        /* Secciones */
+        section {
+            padding: 4rem 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: var(--dark-color);
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background-color: var(--primary-color);
+            margin: 1rem auto;
+        }
+        
+        /* Beneficios */
+        .benefits {
+            background-color: white;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .benefit-card {
+            background-color: var(--light-color);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid var(--primary-color);
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .benefit-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark-color);
+        }
+        
+        /* Servicios */
+        .services {
+            background-color: #f1f5f9;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-img {
+            height: 200px;
+            background-color: #ddd;
+            background-image: url('https://placehold.co/400x200/3498db/white?text=SEO+Local');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .service-content {
+            padding: 1.5rem;
+        }
+        
+        .service-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--dark-color);
+        }
+        
+        /* Local SEO */
+        .local-seo {
+            background-color: white;
+        }
+        
+        .local-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 3rem;
+        }
+        
+        .local-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .local-text h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark-color);
+        }
+        
+        .local-text ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .local-text li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .local-image {
+            flex: 1;
+            min-width: 300px;
+            height: 400px;
+            background-image: url('https://placehold.co/500x400/27ae60/white?text=Mapa+Alzira');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        /* Testimonios */
+        .testimonials {
+            background-color: #f1f5f9;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .testimonial-card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .testimonial-card:before {
+            content: '"';
+            font-size: 5rem;
+            color: var(--primary-color);
+            opacity: 0.2;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 0;
+        }
+        
+        .testimonial-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .author-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin-right: 1rem;
+            background-image: url('https://placehold.co/100x100/9b59b6/white?text=User');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .author-info h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.2rem;
+        }
+        
+        .author-info p {
+            color: #777;
+            font-size: 0.9rem;
+        }
+        
+        /* CTA Final */
+        .cta-final {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 5rem 0;
+        }
+        
+        .cta-final h2 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .cta-final p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        
+        .cta-final-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .cta-secondary {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+        
+        .cta-secondary:hover {
+            background-color: white;
+            color: var(--primary-color);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        .footer-column h3:after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-color);
+            margin-top: 0.5rem;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .footer-column ul li a {
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-column ul li a:hover {
+            color: var(--accent-color);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #bdc3c7;
+            font-size: 0.9rem;
+        }
+        
+        /* Formulario de contacto */
+        .contact-form {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--dark-color);
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            background-color: #c0392b;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+            }
+            
+            nav ul {
+                margin-top: 1rem;
+            }
+            
+            nav ul li {
+                margin: 0 0.5rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .local-content {
+                flex-direction: column;
+            }
+            
+            .cta-final h2 {
+                font-size: 2.2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero {
+                padding: 3rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            section {
+                padding: 3rem 0;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+        
+        /* Animaciones */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .animate {
+            animation: fadeIn 1s ease forwards;
+        }
+        
+        /* Mapa */
+        .map-container {
+            height: 400px;
+            margin: 2rem 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .map-placeholder {
+            width: 100%;
+            height: 100%;
+            background-image: url('https://placehold.co/1200x400/2980b9/white?text=Mapa+de+Alzira,+Valencia');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">SEO<span>Alzira</span></a>
+                <nav>
+                    <ul>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#local">SEO Local</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Posicionamiento SEO Local en Alzira, Valencia</h1>
+            <p>Convierte visitas en clientes reales. Haz que tu negocio aparezca en los primeros resultados de Google cuando los clientes de Alzira buscan tus productos o servicios.</p>
+            <a href="#contacto" class="cta-button">¡Solicita tu Análisis Gratis!</a>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Beneficios del SEO Local en Alzira</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card animate">
+                    <div class="benefit-icon">🔍</div>
+                    <h3>Mayor Visibilidad</h3>
+                    <p>Aparece en los primeros resultados de Google cuando los clientes de Alzira buscan tus servicios. Más visibilidad significa más clientes potenciales.</p>
+                </div>
+                <div class="benefit-card animate">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Clientes Calificados</h3>
+                    <p>Los usuarios que te encuentran mediante búsquedas locales están más cerca de realizar una compra. Atrae clientes que realmente necesitan tus servicios.</p>
+                </div>
+                <div class="benefit-card animate">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Retorno de Inversión</h3>
+                    <p>El SEO local ofrece uno de los mejores retornos de inversión en marketing digital. Invierte una vez y obtén resultados durante años.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios de SEO Local</h2>
+            <div class="services-grid">
+                <div class="service-card animate">
+                    <div class="service-img"></div>
+                    <div class="service-content">
+                        <h3>Optimización Google Business</h3>
+                        <p>Configuramos y optimizamos tu perfil de Google Business para que aparezcas en el mapa local y en los resultados de búsqueda de Alzira.</p>
+                    </div>
+                </div>
+                <div class="service-card animate">
+                    <div class="service-img" style="background-image: url('https://placehold.co/400x200/e74c3c/white?text=Palabras+Clave')"></div>
+                    <div class="service-content">
+                        <h3>Investigación de Palabras Clave Locales</h3>
+                        <p>Identificamos las palabras clave que los clientes de Alzira utilizan para buscar servicios como el tuyo y las optimizamos en tu sitio web.</p>
+                    </div>
+                </div>
+                <div class="service-card animate">
+                    <div class="service-img" style="background-image: url('https://placehold.co/400x200/27ae60/white?text=Gestión+Reputación')"></div>
+                    <div class="service-content">
+                        <h3>Gestión de Reputación Online</h3>
+                        <p>Monitoreamos y gestionamos tus reseñas en Google y otras plataformas para mejorar tu reputación y confianza entre los clientes de Alzira.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Local -->
+    <section id="local" class="local-seo">
+        <div class="container">
+            <h2 class="section-title">Especialistas en SEO Local en Alzira</h2>
+            <div class="local-content">
+                <div class="local-text">
+                    <h3>¿Por qué el SEO Local es Esencial para tu Negocio en Alzira?</h3>
+                    <p>El 97% de los consumidores busca productos y servicios locales en internet. Si tu negocio no aparece en los resultados de búsqueda locales, estás perdiendo clientes potenciales cada día.</p>
+                    <ul>
+                        <li><strong>Geo-posicionamiento:</strong> Optimizamos tu sitio para que Google sepa exactamente dónde está tu negocio en Alzira.</li>
+                        <li><strong>Contenido localizado:</strong> Creamos contenido relevante para Alzira, Valencia y sus alrededores.</li>
+                        <li><strong>Directorios locales:</strong> Listamos tu negocio en los directorios más importantes para Alzira.</li>
+                        <li><strong>Enlaces locales:</strong> Obtenemos enlaces de calidad desde otros negocios y sitios web de Alzira.</li>
+                    </ul>
+                    <p>Nuestro enfoque combina técnicas avanzadas de SEO con un profundo conocimiento del mercado local de Alzira para maximizar tu visibilidad y atraer más clientes.</p>
+                </div>
+                <div class="local-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Nuestra Presencia en Alzira</h2>
+            <p class="text-center">Estamos aquí para ayudar a los negocios locales de Alzira a crecer mediante el marketing digital y el posicionamiento web.</p>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    Mapa interactivo de Alzira, Valencia - Ubicación estratégica para servicios SEO local
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo que Dicen Nuestros Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Desde que comenzamos con el servicio de SEO local, nuestro número de clientes que llegan a través de Google ha aumentado un 300%. Ahora aparecemos en los primeros resultados cuando alguien busca 'restaurantes en Alzira'."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img"></div>
+                            <div class="author-info">
+                                <h4>María González</h4>
+                                <p>Restaurante La Alquería, Alzira</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Como taller mecánico en Alzira, nunca pensamos que el SEO podía ayudarnos. Hoy, más del 60% de nuestros nuevos clientes nos encuentran online gracias a las estrategias de posicionamiento local."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img" style="background-image: url('https://placehold.co/100x100/3498db/white?text=J')"></div>
+                            <div class="author-info">
+                                <h4>Juan Pérez</h4>
+                                <p>Taller Mecánico Alzira Motor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"La gestión de nuestro perfil de Google Business ha sido transformadora. Las reseñas positivas y la optimización del perfil han aumentado nuestras llamadas un 200% en solo tres meses."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img" style="background-image: url('https://placehold.co/100x100/e74c3c/white?text=A')"></div>
+                            <div class="author-info">
+                                <h4>Ana Martínez</h4>
+                                <p>Peluquería Estilo, Alzira</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>¿Listo para Dominar los Resultados de Búsqueda en Alzira?</h2>
+            <p>Ofrecemos un análisis gratuito de tu posicionamiento actual y un plan personalizado para superar a tu competencia en Alzira, Valencia.</p>
+            <div class="cta-final-buttons">
+                <a href="#contacto" class="cta-button">Solicitar Análisis Gratis</a>
+                <a href="tel:+34962123456" class="cta-button cta-secondary">Llamar Ahora: 962 123 456</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos para tu Análisis SEO Gratis</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="business">Nombre del Negocio</label>
+                        <input type="text" id="business" name="business" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Localización en Alzira</label>
+                        <input type="text" id="location" name="location" placeholder="Ej: Centro, Barrio del Pilar, etc." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Servicio que Ofrece</label>
+                        <select id="service" name="service" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="restaurante">Restaurante</option>
+                            <option value="taller">Taller Mecánico</option>
+                            <option value="peluqueria">Peluquería/Estética</option>
+                            <option value="comercio">Comercio Minorista</option>
+                            <option value="profesional">Servicio Profesional</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje (¿Qué resultados esperas del SEO?)</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SEO Alzira</h3>
+                    <p>Especialistas en posicionamiento web local para negocios en Alzira, Valencia. Ayudamos a empresas como la tuya a crecer mediante el marketing digital.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">i</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">SEO Local Alzira</a></li>
+                        <li><a href="#">Google Business Optimization</a></li>
+                        <li><a href="#">Gestión de Reseñas</a></li>
+                        <li><a href="#">Marketing de Contenidos Local</a></li>
+                        <li><a href="#">Publicidad Online Local</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Área de Servicio</h3>
+                    <ul>
+                        <li><a href="#">Alzira</a></li>
+                        <li><a href="#">Xàtiva</a></li>
+                        <li><a href="#">Cullera</a></li>
+                        <li><a href="#">Algemesí</a></li>
+                        <li><a href="#">Sueca</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>📍 Centro de Alzira, Valencia</li>
+                        <li>📞 <a href="tel:+34962123456">962 123 456</a></li>
+                        <li>✉️ <a href="mailto:info@seoalzira.com">info@seoalzira.com</a></li>
+                        <li>🕒 Lunes a Viernes: 9:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 SEO Alzira. Todos los derechos reservados. Especialistas en posicionamiento web local para Alzira, Valencia.</p>
+                <p><a href="#" style="color: #bdc3c7;">Política de Privacidad</a> | <a href="#" style="color: #bdc3c7;">Términos de Servicio</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animación al hacer scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            animateElements.forEach(el => {
+                el.style.opacity = 0;
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+            
+            // Smooth scrolling para enlaces internos
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Formulario de contacto
+            const form = document.getElementById('contactForm');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Aquí normalmente enviarías los datos a un servidor
+                    // Para este ejemplo, mostraremos un mensaje de éxito
+                    alert('¡Gracias por tu solicitud! Nos pondremos en contacto contigo en menos de 24 horas para tu análisis SEO gratuito.');
+                    form.reset();
+                });
+            }
+            
+            // Efecto de parallax para el hero
+            window.addEventListener('scroll', function() {
+                const hero = document.querySelector('.hero');
+                if (hero) {
+                    const scrollPosition = window.pageYOffset;
+                    hero.style.backgroundPosition = `center ${scrollPosition * 0.5}px`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
